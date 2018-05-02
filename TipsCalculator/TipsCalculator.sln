@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AutofacConfiguration", "AutofacConfiguration", "{86918C4D-A163-4DE3-8437-64C8CF4C83F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessTier", "BusinessTier", "{8FDCE679-C7F4-4D70-BC89-6C99B0E177C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonTier", "CommonTier", "{4F6C4BAF-C7C9-45C1-A792-60490EEDF1CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DaoTier", "DaoTier", "{8C795B43-9EA9-426C-8D02-272BBD1015BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipsCalculator.DataAccess.Logic", "TipsCalculator.DataAccess.Logic\TipsCalculator.DataAccess.Logic.csproj", "{91B3CED7-8724-42AB-B5BA-A3EA519B96E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipsCalculator.DataAccess.WSVueling", "TipsCalculator.DataAccess.WSVueling\TipsCalculator.DataAccess.WSVueling.csproj", "{2B0F2EF7-F0DE-4BC7-888E-1645B1578887}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipsCalculator.DataAccess.Redis", "TipsCalculator.DataAccess.Redis\TipsCalculator.DataAccess.Redis.csproj", "{D76D05C1-F691-4A1F-B3EF-AE92F6F1280E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipsCalculator.Business.Logic", "TipsCalculator.Business.Logic\TipsCalculator.Business.Logic.csproj", "{55E1C544-660C-4674-AF82-D53C9F3EA6F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipsCalculator.Business.Logic.Facade", "TipsCalculator.Business.Logic.Facade\TipsCalculator.Business.Logic.Facade.csproj", "{A2839C93-2EBF-4849-BBC0-015D421ADF9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipsCalculator.AutofacConfiguration", "TipsCalculator.AutofacConfiguration\TipsCalculator.AutofacConfiguration.csproj", "{CF1CA4DA-80D7-4728-9CA3-53AEAF182845}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipsCalculator.Common.Logic", "TipsCalculator.Common.Logic\TipsCalculator.Common.Logic.csproj", "{113E19DD-2341-453A-A37A-FAAEDBAA77C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91B3CED7-8724-42AB-B5BA-A3EA519B96E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B3CED7-8724-42AB-B5BA-A3EA519B96E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91B3CED7-8724-42AB-B5BA-A3EA519B96E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91B3CED7-8724-42AB-B5BA-A3EA519B96E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B0F2EF7-F0DE-4BC7-888E-1645B1578887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B0F2EF7-F0DE-4BC7-888E-1645B1578887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B0F2EF7-F0DE-4BC7-888E-1645B1578887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B0F2EF7-F0DE-4BC7-888E-1645B1578887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D76D05C1-F691-4A1F-B3EF-AE92F6F1280E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76D05C1-F691-4A1F-B3EF-AE92F6F1280E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76D05C1-F691-4A1F-B3EF-AE92F6F1280E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76D05C1-F691-4A1F-B3EF-AE92F6F1280E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55E1C544-660C-4674-AF82-D53C9F3EA6F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55E1C544-660C-4674-AF82-D53C9F3EA6F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55E1C544-660C-4674-AF82-D53C9F3EA6F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55E1C544-660C-4674-AF82-D53C9F3EA6F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2839C93-2EBF-4849-BBC0-015D421ADF9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2839C93-2EBF-4849-BBC0-015D421ADF9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2839C93-2EBF-4849-BBC0-015D421ADF9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2839C93-2EBF-4849-BBC0-015D421ADF9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF1CA4DA-80D7-4728-9CA3-53AEAF182845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF1CA4DA-80D7-4728-9CA3-53AEAF182845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF1CA4DA-80D7-4728-9CA3-53AEAF182845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF1CA4DA-80D7-4728-9CA3-53AEAF182845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{113E19DD-2341-453A-A37A-FAAEDBAA77C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{113E19DD-2341-453A-A37A-FAAEDBAA77C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{113E19DD-2341-453A-A37A-FAAEDBAA77C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{113E19DD-2341-453A-A37A-FAAEDBAA77C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{91B3CED7-8724-42AB-B5BA-A3EA519B96E3} = {8C795B43-9EA9-426C-8D02-272BBD1015BA}
+		{2B0F2EF7-F0DE-4BC7-888E-1645B1578887} = {8C795B43-9EA9-426C-8D02-272BBD1015BA}
+		{D76D05C1-F691-4A1F-B3EF-AE92F6F1280E} = {8C795B43-9EA9-426C-8D02-272BBD1015BA}
+		{55E1C544-660C-4674-AF82-D53C9F3EA6F2} = {8FDCE679-C7F4-4D70-BC89-6C99B0E177C6}
+		{A2839C93-2EBF-4849-BBC0-015D421ADF9D} = {8FDCE679-C7F4-4D70-BC89-6C99B0E177C6}
+		{CF1CA4DA-80D7-4728-9CA3-53AEAF182845} = {86918C4D-A163-4DE3-8437-64C8CF4C83F6}
+		{113E19DD-2341-453A-A37A-FAAEDBAA77C4} = {4F6C4BAF-C7C9-45C1-A792-60490EEDF1CF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A932BBA-323D-4939-82D9-065C71D9C1D1}
+	EndGlobalSection
+EndGlobal
